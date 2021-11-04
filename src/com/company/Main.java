@@ -5,11 +5,12 @@ public class Main {
 
         car newcar = new car();
 
-        newcar.name="ferrari";
-        newcar.color="white";
-        newcar.doors=4;
-        newcar.engineCapacity="60000cc";
+        newcar.name="Lambo";
+        newcar.engineCapacity="";
+        newcar.doors=7;
+        newcar.model="aventador";
 
-        System.out.println(newcar.color);
+        System.out.println(newcar.model);
+        
     }
 }
